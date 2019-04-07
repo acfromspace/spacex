@@ -1,0 +1,30 @@
+{
+  "name": "spacex",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acfromspace/spacex.git"
+  },
+  "author": "acfromspace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acfromspace/spacex/issues"
+  },
+  "homepage": "https://github.com/acfromspace/spacex#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
