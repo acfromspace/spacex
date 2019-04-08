@@ -23,6 +23,8 @@ export default function LaunchItem({
           </h4>
           <p>
             Date: <Moment format="YYYY-MM-DD HH:MM">{launch_date_local}</Moment>{" "}
+            <br />
+            Flight Number: <b>{flight_number}</b>
           </p>
         </div>
         <div className="col-md-3">
