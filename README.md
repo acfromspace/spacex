@@ -20,3 +20,5 @@ spacex
 - Development Testing
   - Concurrently
   - Nodemon
+
+note: update with reference to package.json
