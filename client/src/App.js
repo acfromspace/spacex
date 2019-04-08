@@ -20,7 +20,7 @@ class App extends Component {
             <img
               src={logo}
               alt="SpaceX"
-              style={{ width: "30rem", display: "block", margin: "auto" }}
+              style={{ width: "300px", display: "block", margin: "auto" }}
             />
             <Route exact path="/" component={Launches} />
             <Route exact path="/launch/:flight_number" component={Launch} />
