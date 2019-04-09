@@ -4,6 +4,7 @@
   "description": "SpaceX contributed data that is digestable.",
   "main": "server.js",
   "scripts": {
+    "clean": "rm -rf public",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm start --prefix client\"",
     "server": "nodemon server.js",

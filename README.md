@@ -52,7 +52,7 @@ npm install
 cd client && npm install
 
 # Run server & client (:5000 & :3000)
-cd ..
+# cd .. dependent on where you are
 npm run dev
 
 # Server only (:5000)
@@ -62,6 +62,10 @@ npm run server
 npm run client
 
 # Build for production (Builds into server ./public)
+cd client && npm run build
+
+# To build new productions, return to root then
+npm run clean
 cd client && npm run build
 
 # GraphiQL - http://localhost:5000/graphql
