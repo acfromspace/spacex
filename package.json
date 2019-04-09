@@ -1,7 +1,7 @@
 {
-  "name": "spacex",
-  "version": "1.0.0",
-  "description": "App that lists SpaceX launch missions",
+  "name": "acfromspacex",
+  "version": "1.0.2",
+  "description": "SpaceX contributed data that is digestable.",
   "main": "server.js",
   "scripts": {
     "client": "npm start --prefix client",
