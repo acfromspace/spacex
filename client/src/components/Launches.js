@@ -25,6 +25,12 @@ export class Launches extends Component {
           {({ loading, error, data }) => {
             if (loading) return <h4>Loading...</h4>;
             if (error) console.log(error);
+            if (data === undefined)
+              return (
+                <h4>
+                  Data is undefined. Client only rendering, server not rendered.
+                </h4>
+              );
             return (
               <Fragment>
                 {data.launches.map(launch => (

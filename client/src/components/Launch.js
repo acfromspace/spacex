@@ -31,7 +31,12 @@ export class Launch extends Component {
           {({ loading, error, data }) => {
             if (loading) return <h4>Loading...</h4>;
             if (error) return console.log(error);
-
+            if (data === undefined)
+              return (
+                <h4>
+                  Data is undefined. Client only rendering, server not rendered.
+                </h4>
+              );
             const {
               mission_name,
               flight_number,
