@@ -15,15 +15,14 @@
   Created with <a href="https://reactjs.org/" target="_blank">React.js</a>, <a href="https://graphql.org/" target="_blank">GraphQL</a>, and <a href="https://www.apollographql.com/" target="_blank">Apollo</a> that uses the <a href="https://github.com/r-spacex/SpaceX-API" target="_blank">SpaceX API</a> to display data.
 </p>
 
-<!-- INFORMATION (Shields:IO) -->
+<!-- BADGES -->
 
 <p align="center">
     <a href="https://github.com/acfromspace/spacex/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
             alt="License: MIT"></a>
-    <a href="https://twitter.com/intent/follow?screen_name=acfromspace">
-        <img src="https://img.shields.io/twitter/follow/acfromspace.svg?style=social&logo=twitter"
-            alt="Follow @acfromspace"></a>
+    <a href="https://www.repostatus.org/#unsupported">
+        <img src="https://www.repostatus.org/badges/latest/unsupported.svg" alt="Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired." /></a>
 </p>
 
 <!-- FEATURES -->
@@ -71,10 +70,6 @@ cd client && npm run build
 # GraphiQL - http://localhost:5000/graphql
 ```
 
-<!-- IN-DEPTH GUIDE -->
-
-<!-- EXTERNAL SERVICES -->
-
 <!-- WHAT'S INSIDE? -->
 
 ## <span role="img" aria-label="Thinking Face">🤔</span> What's inside?
@@ -105,8 +100,6 @@ A quick look at the top-level files and directories you'll see in this project.
 8. **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
 9. **`schema.js`**: Contains the [axios](https://github.com/axios/axios) calls to fetch the data we need to create the application.
 10. **`server.js`**: Middleware area where the frontend speaks with the backend.
-
-<!-- CONTRIBUTORS -->
 
 <!-- LICENSE -->
 
