@@ -29,7 +29,7 @@
 
 ![UnsplashSpaceX](https://images.unsplash.com/photo-1517976384346-3136801d605d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 
-[acfromspacex](https://github.com/acfromspace/acfromspacex) is an application with the following features:
+[acfromspacex](https://github.com/acfromspace/acfromspacex) is a website with the following features:
 
 - **Launch data.** Data pertaining to the specific projects of launching objects into space.
 - **Rocket data.** Data pertaining to the specific launch.
