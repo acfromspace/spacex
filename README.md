@@ -1,7 +1,7 @@
 <!-- HEADING -->
 
 <p align="center">
-  <img src="./avatar.png" width="60">
+  <img src="https://user-images.githubusercontent.com/10361542/71635438-7e97da00-2bd9-11ea-9940-8a42bd798a00.png" width="60">
 </p>
 <h1 align="center">️acfromspacex</h1>
 
@@ -27,9 +27,11 @@
 
 <!-- FEATURES -->
 
-![UnsplashSpaceX](https://images.unsplash.com/photo-1517976384346-3136801d605d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1517976384346-3136801d605d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80">
+</p>
 
-[acfromspacex](https://github.com/acfromspace/acfromspacex) is a website with the following features:
+[_acfromspacex_](https://github.com/acfromspace/acfromspacex) is a website with the following features:
 
 - **Launch data.** Data pertaining to the specific projects of launching objects into space.
 - **Rocket data.** Data pertaining to the specific launch.
@@ -81,25 +83,23 @@ A quick look at the top-level files and directories you'll see in this project.
 1  ├── client/
 2  ├── public/
 3  ├── .gitignore
-4  ├── avatar.png
-5  ├── LICENSE
-6  ├── package-lock.json
-7  ├── package.json
-8  ├── README.md
-9  ├── schema.js
-10 └── server.js
+4  ├── LICENSE
+5  ├── package-lock.json
+6  ├── package.json
+7  ├── README.md
+8  ├── schema.js
+9  └── server.js
 ```
 
 1. **`client/`**: Frontend development here.
 2. **`public/`**: What is distributed to the viewing software so everyone can see your greatest creation!
 3. **`.gitignore`**: This file tells `.git` which files it should not track nor maintain a version history for. For instance, you shouldn't let anyone get your `.env` files. (These usually contain your API keys)
-4. **`avatar.png`**: Image used in the README.md.
-5. **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
-6. **`package-lock.json`**: This is an automatically generated file based on the exact versions of your package manager dependencies that were installed for your project. (You won’t change this file directly)
-7. **`package.json`**: A manifest file for [Node.js](https://nodejs.org/en/) projects, which includes metadata (the project’s name, author, package names, etc.). This manifest is how [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/en/) knows which packages to install for your project.
-8. **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
-9. **`schema.js`**: Contains the [axios](https://github.com/axios/axios) calls to fetch the data we need to create the application.
-10. **`server.js`**: Middleware area where the frontend speaks with the backend.
+4. **`LICENSE`**: An open source license that protects contributors and users depending on the license chosen.
+5. **`package-lock.json`**: This is an automatically generated file based on the exact versions of your package manager dependencies that were installed for your project. (You won’t change this file directly)
+6. **`package.json`**: A manifest file for [Node.js](https://nodejs.org/en/) projects, which includes metadata (the project’s name, author, package names, etc.). This manifest is how [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/en/) knows which packages to install for your project.
+7. **`README.md`**: A markdown file containing useful reference information about your project. The file you're reading right now!
+8. **`schema.js`**: Contains the [axios](https://github.com/axios/axios) calls to fetch the data we need to create the application.
+9. **`server.js`**: Middleware area where the frontend speaks with the backend.
 
 <!-- LICENSE -->
 
