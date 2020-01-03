@@ -18,7 +18,7 @@
 <!-- BADGES -->
 
 <p align="center">
-    <a href="https://github.com/acfromspace/spacex/blob/master/LICENSE">
+    <a href="https://github.com/acfromspace/acfromspacex/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
             alt="License: MIT"></a>
     <a href="https://www.repostatus.org/#unsupported">
@@ -31,7 +31,7 @@
   <img src="https://images.unsplash.com/photo-1517976384346-3136801d605d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80">
 </p>
 
-[_acfromspacex_](https://github.com/acfromspace/acfromspacex) is a website with the following features:
+[_acfromspacex_](https://acfromspacex.herokuapp.com/) is a website with the following features:
 
 - **Launch data.** Data pertaining to the specific projects of launching objects into space.
 - **Rocket data.** Data pertaining to the specific launch.
@@ -52,14 +52,14 @@ cd acfromspacex
 npm install
 cd client && npm install
 
-# Run server & client (:5000 & :3000)
+# Run server & client
 # cd .. dependent on where you are
 npm run dev
 
-# Server only (:5000)
+# Server only
 npm run server
 
-# Client only (:3000)
+# Client only
 npm run client
 
 # Build for production (Builds into server ./public)
@@ -68,8 +68,6 @@ cd client && npm run build
 # To build new productions, return to root then
 npm run clean
 cd client && npm run build
-
-# GraphiQL - http://localhost:5000/graphql
 ```
 
 <!-- WHAT'S INSIDE? -->
